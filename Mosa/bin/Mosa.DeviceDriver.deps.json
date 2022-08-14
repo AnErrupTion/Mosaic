@@ -1,0 +1,66 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {},
+    ".NETCoreApp,Version=v6.0/": {
+      "Mosa.DeviceDriver/1.0.0": {
+        "dependencies": {
+          "Mosa.DeviceSystem": "1.0.0",
+          "Mosa.Runtime": "1.0.0",
+          "System.Runtime": "1.0.0"
+        },
+        "runtime": {
+          "Mosa.DeviceDriver.dll": {}
+        }
+      },
+      "Mosa.DeviceSystem/1.0.0": {
+        "dependencies": {
+          "Mosa.Runtime": "1.0.0",
+          "System.Runtime": "1.0.0"
+        },
+        "runtime": {
+          "Mosa.DeviceSystem.dll": {}
+        }
+      },
+      "Mosa.Runtime/1.0.0": {
+        "dependencies": {
+          "System.Runtime": "1.0.0"
+        },
+        "runtime": {
+          "Mosa.Runtime.dll": {}
+        }
+      },
+      "System.Runtime/1.0.0": {
+        "runtime": {
+          "System.Runtime.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Mosa.DeviceDriver/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mosa.DeviceSystem/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mosa.Runtime/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Runtime/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

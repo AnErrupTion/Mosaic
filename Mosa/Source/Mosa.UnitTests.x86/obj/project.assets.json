@@ -1,0 +1,194 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Mosa.Collections.Generic/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "System.Runtime": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Mosa.Collections.Generic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mosa.Collections.Generic.dll": {}
+        }
+      },
+      "Mosa.Kernel.x86/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Mosa.Runtime": "1.0.0",
+          "Mosa.Runtime.x86": "1.0.0",
+          "System.Runtime": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Mosa.Kernel.x86.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mosa.Kernel.x86.dll": {}
+        }
+      },
+      "Mosa.Runtime/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "System.Runtime": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Mosa.Runtime.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mosa.Runtime.dll": {}
+        }
+      },
+      "Mosa.Runtime.x86/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Mosa.Runtime": "1.0.0",
+          "System.Runtime": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Mosa.Runtime.x86.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mosa.Runtime.x86.dll": {}
+        }
+      },
+      "Mosa.UnitTests/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Mosa.Collections.Generic": "1.0.0",
+          "System.Runtime": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Mosa.UnitTests.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mosa.UnitTests.dll": {}
+        }
+      },
+      "System.Runtime/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/System.Runtime.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/System.Runtime.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Mosa.Collections.Generic/1.0.0": {
+      "type": "project",
+      "path": "../Mosa.Collections.Generic/Mosa.Collections.Generic.csproj",
+      "msbuildProject": "../Mosa.Collections.Generic/Mosa.Collections.Generic.csproj"
+    },
+    "Mosa.Kernel.x86/1.0.0": {
+      "type": "project",
+      "path": "../Mosa.Kernel.x86/Mosa.Kernel.x86.csproj",
+      "msbuildProject": "../Mosa.Kernel.x86/Mosa.Kernel.x86.csproj"
+    },
+    "Mosa.Runtime/1.0.0": {
+      "type": "project",
+      "path": "../Mosa.Runtime/Mosa.Runtime.csproj",
+      "msbuildProject": "../Mosa.Runtime/Mosa.Runtime.csproj"
+    },
+    "Mosa.Runtime.x86/1.0.0": {
+      "type": "project",
+      "path": "../Mosa.Runtime.x86/Mosa.Runtime.x86.csproj",
+      "msbuildProject": "../Mosa.Runtime.x86/Mosa.Runtime.x86.csproj"
+    },
+    "Mosa.UnitTests/1.0.0": {
+      "type": "project",
+      "path": "../Mosa.UnitTests/Mosa.UnitTests.csproj",
+      "msbuildProject": "../Mosa.UnitTests/Mosa.UnitTests.csproj"
+    },
+    "System.Runtime/1.0.0": {
+      "type": "project",
+      "path": "../Mosa.Korlib/Mosa.Korlib.csproj",
+      "msbuildProject": "../Mosa.Korlib/Mosa.Korlib.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Mosa.Kernel.x86 >= 1.0.0",
+      "Mosa.Runtime >= 1.0.0",
+      "Mosa.Runtime.x86 >= 1.0.0",
+      "Mosa.UnitTests >= 1.0.0",
+      "System.Runtime >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/kokolor/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/Mosa.UnitTests.x86/Mosa.UnitTests.x86.csproj",
+      "projectName": "Mosa.UnitTests.x86",
+      "projectPath": "/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/Mosa.UnitTests.x86/Mosa.UnitTests.x86.csproj",
+      "packagesPath": "/home/kokolor/.nuget/packages/",
+      "outputPath": "/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/Mosa.UnitTests.x86/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/nuget.config",
+        "/home/kokolor/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/Mosa.Kernel.x86/Mosa.Kernel.x86.csproj": {
+              "projectPath": "/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/Mosa.Kernel.x86/Mosa.Kernel.x86.csproj"
+            },
+            "/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/Mosa.Korlib/Mosa.Korlib.csproj": {
+              "projectPath": "/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/Mosa.Korlib/Mosa.Korlib.csproj"
+            },
+            "/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/Mosa.Runtime.x86/Mosa.Runtime.x86.csproj": {
+              "projectPath": "/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/Mosa.Runtime.x86/Mosa.Runtime.x86.csproj"
+            },
+            "/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/Mosa.Runtime/Mosa.Runtime.csproj": {
+              "projectPath": "/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/Mosa.Runtime/Mosa.Runtime.csproj"
+            },
+            "/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/Mosa.UnitTests/Mosa.UnitTests.csproj": {
+              "projectPath": "/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/Mosa.UnitTests/Mosa.UnitTests.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.108/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

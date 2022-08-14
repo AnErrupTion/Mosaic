@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Mosa.Utility.SourceCodeGenerator/1.0.0": {
+        "dependencies": {
+          "Mosa.Compiler.Common": "1.0.0"
+        },
+        "runtime": {
+          "Mosa.Utility.SourceCodeGenerator.dll": {}
+        }
+      },
+      "Mosa.Compiler.Common/1.0.0": {
+        "runtime": {
+          "Mosa.Compiler.Common.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Mosa.Utility.SourceCodeGenerator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mosa.Compiler.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

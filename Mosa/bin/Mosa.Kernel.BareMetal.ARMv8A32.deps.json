@@ -1,0 +1,78 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {},
+    ".NETCoreApp,Version=v6.0/": {
+      "Mosa.Kernel.BareMetal.ARMv8A32/1.0.0": {
+        "dependencies": {
+          "Mosa.Kernel.BareMetal": "1.0.0",
+          "Mosa.Runtime": "1.0.0",
+          "Mosa.Runtime.ARMv8A32": "1.0.0"
+        },
+        "runtime": {
+          "Mosa.Kernel.BareMetal.ARMv8A32.dll": {}
+        }
+      },
+      "Mosa.Kernel.BareMetal/1.0.0": {
+        "dependencies": {
+          "Mosa.Runtime": "1.0.0"
+        },
+        "runtime": {
+          "Mosa.Kernel.BareMetal.dll": {}
+        }
+      },
+      "Mosa.Runtime/1.0.0": {
+        "dependencies": {
+          "System.Runtime": "1.0.0"
+        },
+        "runtime": {
+          "Mosa.Runtime.dll": {}
+        }
+      },
+      "Mosa.Runtime.ARMv8A32/1.0.0": {
+        "dependencies": {
+          "System.Runtime": "1.0.0"
+        },
+        "runtime": {
+          "Mosa.Runtime.ARMv8A32.dll": {}
+        }
+      },
+      "System.Runtime/1.0.0": {
+        "runtime": {
+          "System.Runtime.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Mosa.Kernel.BareMetal.ARMv8A32/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mosa.Kernel.BareMetal/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mosa.Runtime/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mosa.Runtime.ARMv8A32/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Runtime/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

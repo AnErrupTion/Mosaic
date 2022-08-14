@@ -1,0 +1,163 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/Mosa.Runtime.x64/Mosa.Runtime.x64.csproj": {}
+  },
+  "projects": {
+    "/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/Mosa.Korlib/Mosa.Korlib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/Mosa.Korlib/Mosa.Korlib.csproj",
+        "projectName": "System.Runtime",
+        "projectPath": "/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/Mosa.Korlib/Mosa.Korlib.csproj",
+        "packagesPath": "/home/kokolor/.nuget/packages/",
+        "outputPath": "/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/Mosa.Korlib/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/nuget.config",
+          "/home/kokolor/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.108/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/Mosa.Runtime.x64/Mosa.Runtime.x64.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/Mosa.Runtime.x64/Mosa.Runtime.x64.csproj",
+        "projectName": "Mosa.Runtime.x64",
+        "projectPath": "/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/Mosa.Runtime.x64/Mosa.Runtime.x64.csproj",
+        "packagesPath": "/home/kokolor/.nuget/packages/",
+        "outputPath": "/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/Mosa.Runtime.x64/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/nuget.config",
+          "/home/kokolor/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/Mosa.Korlib/Mosa.Korlib.csproj": {
+                "projectPath": "/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/Mosa.Korlib/Mosa.Korlib.csproj"
+              },
+              "/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/Mosa.Runtime/Mosa.Runtime.csproj": {
+                "projectPath": "/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/Mosa.Runtime/Mosa.Runtime.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.108/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/Mosa.Runtime/Mosa.Runtime.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/Mosa.Runtime/Mosa.Runtime.csproj",
+        "projectName": "Mosa.Runtime",
+        "projectPath": "/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/Mosa.Runtime/Mosa.Runtime.csproj",
+        "packagesPath": "/home/kokolor/.nuget/packages/",
+        "outputPath": "/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/Mosa.Runtime/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/nuget.config",
+          "/home/kokolor/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/Mosa.Korlib/Mosa.Korlib.csproj": {
+                "projectPath": "/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/Mosa.Korlib/Mosa.Korlib.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.108/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

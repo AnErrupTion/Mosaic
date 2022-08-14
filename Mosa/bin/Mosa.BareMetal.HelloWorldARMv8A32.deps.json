@@ -1,0 +1,122 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {},
+    ".NETCoreApp,Version=v6.0/": {
+      "Mosa.BareMetal.HelloWorldARMv8A32/1.0.0": {
+        "dependencies": {
+          "Mosa.Kernel.BareMetal": "1.0.0",
+          "Mosa.Kernel.BareMetal.x86": "1.0.0",
+          "Mosa.UnitTests": "1.0.0",
+          "System.Runtime": "1.0.0"
+        },
+        "runtime": {
+          "Mosa.BareMetal.HelloWorldARMv8A32.dll": {}
+        }
+      },
+      "Mosa.Collections.Generic/1.0.0": {
+        "dependencies": {
+          "System.Runtime": "1.0.0"
+        },
+        "runtime": {
+          "Mosa.Collections.Generic.dll": {}
+        }
+      },
+      "Mosa.Kernel.BareMetal/1.0.0": {
+        "dependencies": {
+          "Mosa.Runtime": "1.0.0"
+        },
+        "runtime": {
+          "Mosa.Kernel.BareMetal.dll": {}
+        }
+      },
+      "Mosa.Kernel.BareMetal.x86/1.0.0": {
+        "dependencies": {
+          "Mosa.Kernel.BareMetal": "1.0.0",
+          "Mosa.Runtime": "1.0.0",
+          "Mosa.Runtime.x86": "1.0.0"
+        },
+        "runtime": {
+          "Mosa.Kernel.BareMetal.x86.dll": {}
+        }
+      },
+      "Mosa.Runtime/1.0.0": {
+        "dependencies": {
+          "System.Runtime": "1.0.0"
+        },
+        "runtime": {
+          "Mosa.Runtime.dll": {}
+        }
+      },
+      "Mosa.Runtime.x86/1.0.0": {
+        "dependencies": {
+          "Mosa.Runtime": "1.0.0",
+          "System.Runtime": "1.0.0"
+        },
+        "runtime": {
+          "Mosa.Runtime.x86.dll": {}
+        }
+      },
+      "Mosa.UnitTests/1.0.0": {
+        "dependencies": {
+          "Mosa.Collections.Generic": "1.0.0",
+          "System.Runtime": "1.0.0"
+        },
+        "runtime": {
+          "Mosa.UnitTests.dll": {}
+        }
+      },
+      "System.Runtime/1.0.0": {
+        "runtime": {
+          "System.Runtime.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Mosa.BareMetal.HelloWorldARMv8A32/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mosa.Collections.Generic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mosa.Kernel.BareMetal/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mosa.Kernel.BareMetal.x86/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mosa.Runtime/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mosa.Runtime.x86/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mosa.UnitTests/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Runtime/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

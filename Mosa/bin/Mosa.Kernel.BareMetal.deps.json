@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {},
+    ".NETCoreApp,Version=v6.0/": {
+      "Mosa.Kernel.BareMetal/1.0.0": {
+        "dependencies": {
+          "Mosa.Runtime": "1.0.0"
+        },
+        "runtime": {
+          "Mosa.Kernel.BareMetal.dll": {}
+        }
+      },
+      "Mosa.Runtime/1.0.0": {
+        "dependencies": {
+          "System.Runtime": "1.0.0"
+        },
+        "runtime": {
+          "Mosa.Runtime.dll": {}
+        }
+      },
+      "System.Runtime/1.0.0": {
+        "runtime": {
+          "System.Runtime.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Mosa.Kernel.BareMetal/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mosa.Runtime/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Runtime/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

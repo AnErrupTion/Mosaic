@@ -1,0 +1,127 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {},
+    ".NETCoreApp,Version=v6.0/": {
+      "Mosa.Demo.SVGAWorld.x86/1.0.0": {
+        "dependencies": {
+          "Mosa.DeviceDriver": "1.0.0",
+          "Mosa.DeviceSystem": "1.0.0",
+          "Mosa.FileSystem": "1.0.0",
+          "Mosa.Kernel.x86": "1.0.0",
+          "Mosa.Runtime": "1.0.0",
+          "Mosa.Runtime.x86": "1.0.0",
+          "System.Runtime": "1.0.0"
+        },
+        "runtime": {
+          "Mosa.Demo.SVGAWorld.x86.dll": {}
+        }
+      },
+      "Mosa.DeviceDriver/1.0.0": {
+        "dependencies": {
+          "Mosa.DeviceSystem": "1.0.0",
+          "Mosa.Runtime": "1.0.0",
+          "System.Runtime": "1.0.0"
+        },
+        "runtime": {
+          "Mosa.DeviceDriver.dll": {}
+        }
+      },
+      "Mosa.DeviceSystem/1.0.0": {
+        "dependencies": {
+          "Mosa.Runtime": "1.0.0",
+          "System.Runtime": "1.0.0"
+        },
+        "runtime": {
+          "Mosa.DeviceSystem.dll": {}
+        }
+      },
+      "Mosa.FileSystem/1.0.0": {
+        "dependencies": {
+          "Mosa.DeviceSystem": "1.0.0"
+        },
+        "runtime": {
+          "Mosa.FileSystem.dll": {}
+        }
+      },
+      "Mosa.Kernel.x86/1.0.0": {
+        "dependencies": {
+          "Mosa.Runtime": "1.0.0",
+          "Mosa.Runtime.x86": "1.0.0",
+          "System.Runtime": "1.0.0"
+        },
+        "runtime": {
+          "Mosa.Kernel.x86.dll": {}
+        }
+      },
+      "Mosa.Runtime/1.0.0": {
+        "dependencies": {
+          "System.Runtime": "1.0.0"
+        },
+        "runtime": {
+          "Mosa.Runtime.dll": {}
+        }
+      },
+      "Mosa.Runtime.x86/1.0.0": {
+        "dependencies": {
+          "Mosa.Runtime": "1.0.0",
+          "System.Runtime": "1.0.0"
+        },
+        "runtime": {
+          "Mosa.Runtime.x86.dll": {}
+        }
+      },
+      "System.Runtime/1.0.0": {
+        "runtime": {
+          "System.Runtime.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Mosa.Demo.SVGAWorld.x86/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mosa.DeviceDriver/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mosa.DeviceSystem/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mosa.FileSystem/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mosa.Kernel.x86/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mosa.Runtime/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mosa.Runtime.x86/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Runtime/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

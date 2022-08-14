@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "hdfb8DrQrMz9cvumpfAXAhao0E6gnsSxxMpS4KmfTLVyr7qVTHTWHh7WmYJXbZgoLz3uicCRJXJAaxoG/VRF/Q==",
+  "success": true,
+  "projectFilePath": "/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/Mosa.Utility.RSP/Mosa.Utility.RSP.csproj",
+  "expectedPackageFiles": [
+    "/home/kokolor/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.8/microsoft.aspnetcore.app.ref.6.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

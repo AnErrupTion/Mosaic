@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <UseAppHost>false</UseAppHost>
+    <DisableStandardFrameworkResolution>true</DisableStandardFrameworkResolution>
+    <DisableImplicitFrameworkReferences>true</DisableImplicitFrameworkReferences>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+    <RuntimeMetadataVersion>v4.0.30319</RuntimeMetadataVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../Mosa/Source/Mosa.DeviceSystem/Mosa.DeviceSystem.csproj" />
+    <ProjectReference Include="../Mosa/Source/Mosa.DeviceDriver/Mosa.DeviceDriver.csproj" />
+    <ProjectReference Include="../Mosa/Source/Mosa.FileSystem/Mosa.FileSystem.csproj" />
+    <ProjectReference Include="../Mosa/Source/Mosa.Kernel.x86/Mosa.Kernel.x86.csproj" />
+    <ProjectReference Include="../Mosa/Source/Mosa.Korlib/Mosa.Korlib.csproj" />
+    <ProjectReference Include="../Mosa/Source/Mosa.Runtime.x86/Mosa.Runtime.x86.csproj" />
+    <ProjectReference Include="../Mosa/Source/Mosa.Runtime/Mosa.Runtime.csproj" />
+  </ItemGroup>
+</Project>

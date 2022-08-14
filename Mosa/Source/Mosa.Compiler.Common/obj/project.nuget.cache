@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "sYlVlXhEIsc7vDoDczaqf7LwncP+PA2iUBNWFObydKHNalVgDBQuvnMBGlVIJmRbIyxUPGPHs1q9ceDYXkVgGw==",
+  "success": true,
+  "projectFilePath": "/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/Mosa.Compiler.Common/Mosa.Compiler.Common.csproj",
+  "expectedPackageFiles": [
+    "/home/kokolor/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.8/microsoft.aspnetcore.app.ref.6.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

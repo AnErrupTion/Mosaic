@@ -1,0 +1,146 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Mosa.Kernel.BareMetal/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Mosa.Runtime": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Mosa.Kernel.BareMetal.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mosa.Kernel.BareMetal.dll": {}
+        }
+      },
+      "Mosa.Runtime/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "System.Runtime": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Mosa.Runtime.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mosa.Runtime.dll": {}
+        }
+      },
+      "Mosa.Runtime.ARMv8A32/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "System.Runtime": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Mosa.Runtime.ARMv8A32.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mosa.Runtime.ARMv8A32.dll": {}
+        }
+      },
+      "System.Runtime/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/System.Runtime.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/System.Runtime.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Mosa.Kernel.BareMetal/1.0.0": {
+      "type": "project",
+      "path": "../Mosa.Kernel.BareMetal/Mosa.Kernel.BareMetal.csproj",
+      "msbuildProject": "../Mosa.Kernel.BareMetal/Mosa.Kernel.BareMetal.csproj"
+    },
+    "Mosa.Runtime/1.0.0": {
+      "type": "project",
+      "path": "../Mosa.Runtime/Mosa.Runtime.csproj",
+      "msbuildProject": "../Mosa.Runtime/Mosa.Runtime.csproj"
+    },
+    "Mosa.Runtime.ARMv8A32/1.0.0": {
+      "type": "project",
+      "path": "../Mosa.Runtime.ARMv8A32/Mosa.Runtime.ARMv8A32.csproj",
+      "msbuildProject": "../Mosa.Runtime.ARMv8A32/Mosa.Runtime.ARMv8A32.csproj"
+    },
+    "System.Runtime/1.0.0": {
+      "type": "project",
+      "path": "../Mosa.Korlib/Mosa.Korlib.csproj",
+      "msbuildProject": "../Mosa.Korlib/Mosa.Korlib.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Mosa.Kernel.BareMetal >= 1.0.0",
+      "Mosa.Runtime >= 1.0.0",
+      "Mosa.Runtime.ARMv8A32 >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/kokolor/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/Mosa.Kernel.BareMetal.ARMv8A32/Mosa.Kernel.BareMetal.ARMv8A32.csproj",
+      "projectName": "Mosa.Kernel.BareMetal.ARMv8A32",
+      "projectPath": "/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/Mosa.Kernel.BareMetal.ARMv8A32/Mosa.Kernel.BareMetal.ARMv8A32.csproj",
+      "packagesPath": "/home/kokolor/.nuget/packages/",
+      "outputPath": "/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/Mosa.Kernel.BareMetal.ARMv8A32/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/nuget.config",
+        "/home/kokolor/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/Mosa.Kernel.BareMetal/Mosa.Kernel.BareMetal.csproj": {
+              "projectPath": "/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/Mosa.Kernel.BareMetal/Mosa.Kernel.BareMetal.csproj"
+            },
+            "/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/Mosa.Runtime.ARMv8A32/Mosa.Runtime.ARMv8A32.csproj": {
+              "projectPath": "/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/Mosa.Runtime.ARMv8A32/Mosa.Runtime.ARMv8A32.csproj"
+            },
+            "/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/Mosa.Runtime/Mosa.Runtime.csproj": {
+              "projectPath": "/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/Mosa.Runtime/Mosa.Runtime.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.108/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

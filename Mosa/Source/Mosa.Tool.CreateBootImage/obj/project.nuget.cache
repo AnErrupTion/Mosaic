@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "PSOkeUs3Uz5d0lvLrLbO4xpcFA94DbD9lS5jmM8avNTPGQ9qK9lLbI3zVD7SdZaMtcl5SCmDFZwJrItvfS6Byg==",
+  "success": true,
+  "projectFilePath": "/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/Mosa.Tool.CreateBootImage/Mosa.Tool.CreateBootImage.csproj",
+  "expectedPackageFiles": [
+    "/home/kokolor/.nuget/packages/commandlineparser/2.8.0/commandlineparser.2.8.0.nupkg.sha512",
+    "/home/kokolor/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.8/microsoft.aspnetcore.app.ref.6.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

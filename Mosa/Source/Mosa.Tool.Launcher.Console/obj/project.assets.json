@@ -1,0 +1,1177 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "dnlib/3.3.5": {
+        "type": "package",
+        "dependencies": {
+          "System.Reflection.Emit": "4.7.0",
+          "System.Reflection.Emit.Lightweight": "4.7.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/dnlib.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/dnlib.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Microsoft.NETCore.Targets/1.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        }
+      },
+      "OptimizedPriorityQueue/5.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/PriorityQueue.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/PriorityQueue.dll": {}
+        }
+      },
+      "Reko.Decompiler.Runtime/0.10.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/K4os.Compression.LZ4.dll": {},
+          "lib/netstandard2.1/Reko.Arch.Alpha.dll": {},
+          "lib/netstandard2.1/Reko.Arch.Altera.dll": {},
+          "lib/netstandard2.1/Reko.Arch.Arc.dll": {},
+          "lib/netstandard2.1/Reko.Arch.Arm.dll": {},
+          "lib/netstandard2.1/Reko.Arch.Avr.dll": {},
+          "lib/netstandard2.1/Reko.Arch.Blackfin.dll": {},
+          "lib/netstandard2.1/Reko.Arch.C166.dll": {},
+          "lib/netstandard2.1/Reko.Arch.Cil.dll": {},
+          "lib/netstandard2.1/Reko.Arch.CompactRisc.dll": {},
+          "lib/netstandard2.1/Reko.Arch.Cray.dll": {},
+          "lib/netstandard2.1/Reko.Arch.Etrax.dll": {},
+          "lib/netstandard2.1/Reko.Arch.H8.dll": {},
+          "lib/netstandard2.1/Reko.Arch.IA64.dll": {},
+          "lib/netstandard2.1/Reko.Arch.LatticeMico.dll": {},
+          "lib/netstandard2.1/Reko.Arch.M6800.dll": {},
+          "lib/netstandard2.1/Reko.Arch.M68k.dll": {},
+          "lib/netstandard2.1/Reko.Arch.MCore.dll": {},
+          "lib/netstandard2.1/Reko.Arch.MicroBlaze.dll": {},
+          "lib/netstandard2.1/Reko.Arch.MicrochipPIC.dll": {},
+          "lib/netstandard2.1/Reko.Arch.MilStd1750.dll": {},
+          "lib/netstandard2.1/Reko.Arch.Mips.dll": {},
+          "lib/netstandard2.1/Reko.Arch.Mos6502.dll": {},
+          "lib/netstandard2.1/Reko.Arch.Msp430.dll": {},
+          "lib/netstandard2.1/Reko.Arch.OpenRISC.dll": {},
+          "lib/netstandard2.1/Reko.Arch.PaRisc.dll": {},
+          "lib/netstandard2.1/Reko.Arch.Pdp11.dll": {},
+          "lib/netstandard2.1/Reko.Arch.PowerPC.dll": {},
+          "lib/netstandard2.1/Reko.Arch.Qualcomm.dll": {},
+          "lib/netstandard2.1/Reko.Arch.RiscV.dll": {},
+          "lib/netstandard2.1/Reko.Arch.Rl78.dll": {},
+          "lib/netstandard2.1/Reko.Arch.Sparc.dll": {},
+          "lib/netstandard2.1/Reko.Arch.SuperH.dll": {},
+          "lib/netstandard2.1/Reko.Arch.Tlcs.dll": {},
+          "lib/netstandard2.1/Reko.Arch.Tms7000.dll": {},
+          "lib/netstandard2.1/Reko.Arch.V850.dll": {},
+          "lib/netstandard2.1/Reko.Arch.Vax.dll": {},
+          "lib/netstandard2.1/Reko.Arch.WE32100.dll": {},
+          "lib/netstandard2.1/Reko.Arch.X86.dll": {},
+          "lib/netstandard2.1/Reko.Arch.XCore.dll": {},
+          "lib/netstandard2.1/Reko.Arch.Xtensa.dll": {},
+          "lib/netstandard2.1/Reko.Arch.Z80.dll": {},
+          "lib/netstandard2.1/Reko.Arch.i8051.dll": {},
+          "lib/netstandard2.1/Reko.Arch.zSeries.dll": {},
+          "lib/netstandard2.1/Reko.Core.dll": {},
+          "lib/netstandard2.1/Reko.Environments.AmigaOS.dll": {},
+          "lib/netstandard2.1/Reko.Environments.AtariTOS.dll": {},
+          "lib/netstandard2.1/Reko.Environments.BbcMicro.dll": {},
+          "lib/netstandard2.1/Reko.Environments.C64.dll": {},
+          "lib/netstandard2.1/Reko.Environments.Cpm.dll": {},
+          "lib/netstandard2.1/Reko.Environments.Dreamcast.dll": {},
+          "lib/netstandard2.1/Reko.Environments.Gameboy.dll": {},
+          "lib/netstandard2.1/Reko.Environments.Hpux.dll": {},
+          "lib/netstandard2.1/Reko.Environments.MacOS.dll": {},
+          "lib/netstandard2.1/Reko.Environments.MorphOS.dll": {},
+          "lib/netstandard2.1/Reko.Environments.Msdos.dll": {},
+          "lib/netstandard2.1/Reko.Environments.NeoGeo.dll": {},
+          "lib/netstandard2.1/Reko.Environments.OS2.dll": {},
+          "lib/netstandard2.1/Reko.Environments.Ps3.dll": {},
+          "lib/netstandard2.1/Reko.Environments.RT11.dll": {},
+          "lib/netstandard2.1/Reko.Environments.RiscOS.dll": {},
+          "lib/netstandard2.1/Reko.Environments.SegaGenesis.dll": {},
+          "lib/netstandard2.1/Reko.Environments.Snes.dll": {},
+          "lib/netstandard2.1/Reko.Environments.Switch.dll": {},
+          "lib/netstandard2.1/Reko.Environments.SysV.dll": {},
+          "lib/netstandard2.1/Reko.Environments.Trs80.dll": {},
+          "lib/netstandard2.1/Reko.Environments.Wii.dll": {},
+          "lib/netstandard2.1/Reko.Environments.Windows.dll": {},
+          "lib/netstandard2.1/Reko.Environments.Xbox.dll": {},
+          "lib/netstandard2.1/Reko.Environments.ZX81.dll": {},
+          "lib/netstandard2.1/Reko.ImageLoaders.BinHex.dll": {},
+          "lib/netstandard2.1/Reko.ImageLoaders.Coff.dll": {},
+          "lib/netstandard2.1/Reko.ImageLoaders.Dol.dll": {},
+          "lib/netstandard2.1/Reko.ImageLoaders.Elf.dll": {},
+          "lib/netstandard2.1/Reko.ImageLoaders.HpSom.dll": {},
+          "lib/netstandard2.1/Reko.ImageLoaders.Hunk.dll": {},
+          "lib/netstandard2.1/Reko.ImageLoaders.IntelHex.dll": {},
+          "lib/netstandard2.1/Reko.ImageLoaders.LLVM.dll": {},
+          "lib/netstandard2.1/Reko.ImageLoaders.Ldm.dll": {},
+          "lib/netstandard2.1/Reko.ImageLoaders.MachO.dll": {},
+          "lib/netstandard2.1/Reko.ImageLoaders.MzExe.dll": {},
+          "lib/netstandard2.1/Reko.ImageLoaders.Nro.dll": {},
+          "lib/netstandard2.1/Reko.ImageLoaders.OdbgScript.dll": {},
+          "lib/netstandard2.1/Reko.ImageLoaders.Omf.dll": {},
+          "lib/netstandard2.1/Reko.ImageLoaders.Pef.dll": {},
+          "lib/netstandard2.1/Reko.ImageLoaders.Srec.dll": {},
+          "lib/netstandard2.1/Reko.ImageLoaders.TekHex.dll": {},
+          "lib/netstandard2.1/Reko.ImageLoaders.TypeLib.dll": {},
+          "lib/netstandard2.1/Reko.ImageLoaders.VmsExe.dll": {},
+          "lib/netstandard2.1/Reko.ImageLoaders.WebAssembly.dll": {},
+          "lib/netstandard2.1/Reko.ImageLoaders.Xbe.dll": {},
+          "lib/netstandard2.1/Reko.ImageLoaders.Xex.dll": {},
+          "lib/netstandard2.1/Reko.Libraries.Libc.dll": {},
+          "lib/netstandard2.1/Reko.Libraries.Microchip.Utils.dll": {},
+          "lib/netstandard2.1/Reko.Libraries.Python.dll": {},
+          "lib/netstandard2.1/Reko.Scripts.Python.dll": {},
+          "lib/netstandard2.1/Reko.Symbols.LGSymLoader.dll": {},
+          "lib/netstandard2.1/Reko.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/K4os.Compression.LZ4.dll": {},
+          "lib/netstandard2.1/Reko.Arch.Alpha.dll": {},
+          "lib/netstandard2.1/Reko.Arch.Altera.dll": {},
+          "lib/netstandard2.1/Reko.Arch.Arc.dll": {},
+          "lib/netstandard2.1/Reko.Arch.Arm.dll": {},
+          "lib/netstandard2.1/Reko.Arch.Avr.dll": {},
+          "lib/netstandard2.1/Reko.Arch.Blackfin.dll": {},
+          "lib/netstandard2.1/Reko.Arch.C166.dll": {},
+          "lib/netstandard2.1/Reko.Arch.Cil.dll": {},
+          "lib/netstandard2.1/Reko.Arch.CompactRisc.dll": {},
+          "lib/netstandard2.1/Reko.Arch.Cray.dll": {},
+          "lib/netstandard2.1/Reko.Arch.Etrax.dll": {},
+          "lib/netstandard2.1/Reko.Arch.H8.dll": {},
+          "lib/netstandard2.1/Reko.Arch.IA64.dll": {},
+          "lib/netstandard2.1/Reko.Arch.LatticeMico.dll": {},
+          "lib/netstandard2.1/Reko.Arch.M6800.dll": {},
+          "lib/netstandard2.1/Reko.Arch.M68k.dll": {},
+          "lib/netstandard2.1/Reko.Arch.MCore.dll": {},
+          "lib/netstandard2.1/Reko.Arch.MicroBlaze.dll": {},
+          "lib/netstandard2.1/Reko.Arch.MicrochipPIC.dll": {},
+          "lib/netstandard2.1/Reko.Arch.MilStd1750.dll": {},
+          "lib/netstandard2.1/Reko.Arch.Mips.dll": {},
+          "lib/netstandard2.1/Reko.Arch.Mos6502.dll": {},
+          "lib/netstandard2.1/Reko.Arch.Msp430.dll": {},
+          "lib/netstandard2.1/Reko.Arch.OpenRISC.dll": {},
+          "lib/netstandard2.1/Reko.Arch.PaRisc.dll": {},
+          "lib/netstandard2.1/Reko.Arch.Pdp11.dll": {},
+          "lib/netstandard2.1/Reko.Arch.PowerPC.dll": {},
+          "lib/netstandard2.1/Reko.Arch.Qualcomm.dll": {},
+          "lib/netstandard2.1/Reko.Arch.RiscV.dll": {},
+          "lib/netstandard2.1/Reko.Arch.Rl78.dll": {},
+          "lib/netstandard2.1/Reko.Arch.Sparc.dll": {},
+          "lib/netstandard2.1/Reko.Arch.SuperH.dll": {},
+          "lib/netstandard2.1/Reko.Arch.Tlcs.dll": {},
+          "lib/netstandard2.1/Reko.Arch.Tms7000.dll": {},
+          "lib/netstandard2.1/Reko.Arch.V850.dll": {},
+          "lib/netstandard2.1/Reko.Arch.Vax.dll": {},
+          "lib/netstandard2.1/Reko.Arch.WE32100.dll": {},
+          "lib/netstandard2.1/Reko.Arch.X86.dll": {},
+          "lib/netstandard2.1/Reko.Arch.XCore.dll": {},
+          "lib/netstandard2.1/Reko.Arch.Xtensa.dll": {},
+          "lib/netstandard2.1/Reko.Arch.Z80.dll": {},
+          "lib/netstandard2.1/Reko.Arch.i8051.dll": {},
+          "lib/netstandard2.1/Reko.Arch.zSeries.dll": {},
+          "lib/netstandard2.1/Reko.Core.dll": {},
+          "lib/netstandard2.1/Reko.Environments.AmigaOS.dll": {},
+          "lib/netstandard2.1/Reko.Environments.AtariTOS.dll": {},
+          "lib/netstandard2.1/Reko.Environments.BbcMicro.dll": {},
+          "lib/netstandard2.1/Reko.Environments.C64.dll": {},
+          "lib/netstandard2.1/Reko.Environments.Cpm.dll": {},
+          "lib/netstandard2.1/Reko.Environments.Dreamcast.dll": {},
+          "lib/netstandard2.1/Reko.Environments.Gameboy.dll": {},
+          "lib/netstandard2.1/Reko.Environments.Hpux.dll": {},
+          "lib/netstandard2.1/Reko.Environments.MacOS.dll": {},
+          "lib/netstandard2.1/Reko.Environments.MorphOS.dll": {},
+          "lib/netstandard2.1/Reko.Environments.Msdos.dll": {},
+          "lib/netstandard2.1/Reko.Environments.NeoGeo.dll": {},
+          "lib/netstandard2.1/Reko.Environments.OS2.dll": {},
+          "lib/netstandard2.1/Reko.Environments.Ps3.dll": {},
+          "lib/netstandard2.1/Reko.Environments.RT11.dll": {},
+          "lib/netstandard2.1/Reko.Environments.RiscOS.dll": {},
+          "lib/netstandard2.1/Reko.Environments.SegaGenesis.dll": {},
+          "lib/netstandard2.1/Reko.Environments.Snes.dll": {},
+          "lib/netstandard2.1/Reko.Environments.Switch.dll": {},
+          "lib/netstandard2.1/Reko.Environments.SysV.dll": {},
+          "lib/netstandard2.1/Reko.Environments.Trs80.dll": {},
+          "lib/netstandard2.1/Reko.Environments.Wii.dll": {},
+          "lib/netstandard2.1/Reko.Environments.Windows.dll": {},
+          "lib/netstandard2.1/Reko.Environments.Xbox.dll": {},
+          "lib/netstandard2.1/Reko.Environments.ZX81.dll": {},
+          "lib/netstandard2.1/Reko.ImageLoaders.BinHex.dll": {},
+          "lib/netstandard2.1/Reko.ImageLoaders.Coff.dll": {},
+          "lib/netstandard2.1/Reko.ImageLoaders.Dol.dll": {},
+          "lib/netstandard2.1/Reko.ImageLoaders.Elf.dll": {},
+          "lib/netstandard2.1/Reko.ImageLoaders.HpSom.dll": {},
+          "lib/netstandard2.1/Reko.ImageLoaders.Hunk.dll": {},
+          "lib/netstandard2.1/Reko.ImageLoaders.IntelHex.dll": {},
+          "lib/netstandard2.1/Reko.ImageLoaders.LLVM.dll": {},
+          "lib/netstandard2.1/Reko.ImageLoaders.Ldm.dll": {},
+          "lib/netstandard2.1/Reko.ImageLoaders.MachO.dll": {},
+          "lib/netstandard2.1/Reko.ImageLoaders.MzExe.dll": {},
+          "lib/netstandard2.1/Reko.ImageLoaders.Nro.dll": {},
+          "lib/netstandard2.1/Reko.ImageLoaders.OdbgScript.dll": {},
+          "lib/netstandard2.1/Reko.ImageLoaders.Omf.dll": {},
+          "lib/netstandard2.1/Reko.ImageLoaders.Pef.dll": {},
+          "lib/netstandard2.1/Reko.ImageLoaders.Srec.dll": {},
+          "lib/netstandard2.1/Reko.ImageLoaders.TekHex.dll": {},
+          "lib/netstandard2.1/Reko.ImageLoaders.TypeLib.dll": {},
+          "lib/netstandard2.1/Reko.ImageLoaders.VmsExe.dll": {},
+          "lib/netstandard2.1/Reko.ImageLoaders.WebAssembly.dll": {},
+          "lib/netstandard2.1/Reko.ImageLoaders.Xbe.dll": {},
+          "lib/netstandard2.1/Reko.ImageLoaders.Xex.dll": {},
+          "lib/netstandard2.1/Reko.Libraries.Libc.dll": {},
+          "lib/netstandard2.1/Reko.Libraries.Microchip.Utils.dll": {},
+          "lib/netstandard2.1/Reko.Libraries.Python.dll": {},
+          "lib/netstandard2.1/Reko.Scripts.Python.dll": {},
+          "lib/netstandard2.1/Reko.Symbols.LGSymLoader.dll": {},
+          "lib/netstandard2.1/Reko.dll": {}
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
+      "System.Reflection.Emit/4.7.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "System.Reflection.Emit.Lightweight/4.7.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "System.Runtime/4.3.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.1",
+          "Microsoft.NETCore.Targets": "1.1.3"
+        },
+        "compile": {
+          "ref/netstandard1.5/System.Runtime.dll": {}
+        }
+      },
+      "System.Threading.Channels/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/System.Threading.Channels.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/System.Threading.Channels.dll": {}
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "Mosa.Compiler.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Mosa.Compiler.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mosa.Compiler.Common.dll": {}
+        }
+      },
+      "Mosa.Compiler.Framework/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Mosa.Compiler.Common": "1.0.0",
+          "Mosa.Compiler.MosaTypeSystem": "1.0.0",
+          "OptimizedPriorityQueue": "5.1.0",
+          "System.Runtime": "4.3.1",
+          "System.Threading.Channels": "6.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Mosa.Compiler.Framework.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mosa.Compiler.Framework.dll": {}
+        }
+      },
+      "Mosa.Compiler.MosaTypeSystem/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Mosa.Compiler.Common": "1.0.0",
+          "dnlib": "3.3.5"
+        },
+        "compile": {
+          "bin/placeholder/Mosa.Compiler.MosaTypeSystem.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mosa.Compiler.MosaTypeSystem.dll": {}
+        }
+      },
+      "Mosa.Platform.ARMv8A32/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Mosa.Compiler.Common": "1.0.0",
+          "Mosa.Compiler.Framework": "1.0.0",
+          "Mosa.Compiler.MosaTypeSystem": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Mosa.Platform.ARMv8A32.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mosa.Platform.ARMv8A32.dll": {}
+        }
+      },
+      "Mosa.Platform.Intel/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Mosa.Compiler.Common": "1.0.0",
+          "Mosa.Compiler.Framework": "1.0.0",
+          "Mosa.Compiler.MosaTypeSystem": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Mosa.Platform.Intel.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mosa.Platform.Intel.dll": {}
+        }
+      },
+      "Mosa.Platform.x64/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Mosa.Compiler.Common": "1.0.0",
+          "Mosa.Compiler.Framework": "1.0.0",
+          "Mosa.Compiler.MosaTypeSystem": "1.0.0",
+          "Mosa.Platform.Intel": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Mosa.Platform.x64.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mosa.Platform.x64.dll": {}
+        }
+      },
+      "Mosa.Platform.x86/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Mosa.Compiler.Common": "1.0.0",
+          "Mosa.Compiler.Framework": "1.0.0",
+          "Mosa.Compiler.MosaTypeSystem": "1.0.0",
+          "Mosa.Platform.Intel": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Mosa.Platform.x86.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mosa.Platform.x86.dll": {}
+        }
+      },
+      "Mosa.Utility.BootImage/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Mosa.Compiler.Common": "1.0.0",
+          "Mosa.Utility.FileSystem": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Mosa.Utility.BootImage.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mosa.Utility.BootImage.dll": {}
+        }
+      },
+      "Mosa.Utility.Configuration/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Mosa.Compiler.Common": "1.0.0",
+          "Mosa.Compiler.Framework": "1.0.0",
+          "Mosa.Platform.ARMv8A32": "1.0.0",
+          "Mosa.Platform.x64": "1.0.0",
+          "Mosa.Platform.x86": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Mosa.Utility.Configuration.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mosa.Utility.Configuration.dll": {}
+        }
+      },
+      "Mosa.Utility.Disassembler/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Mosa.Compiler.Framework": "1.0.0",
+          "Mosa.Platform.ARMv8A32": "1.0.0",
+          "Mosa.Platform.x64": "1.0.0",
+          "Mosa.Platform.x86": "1.0.0",
+          "Reko.Decompiler.Runtime": "0.10.1"
+        },
+        "compile": {
+          "bin/placeholder/Mosa.Utility.Disassembler.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mosa.Utility.Disassembler.dll": {}
+        }
+      },
+      "Mosa.Utility.FileSystem/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Mosa.Utility.FileSystem.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mosa.Utility.FileSystem.dll": {}
+        }
+      },
+      "Mosa.Utility.Launcher/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Mosa.Compiler.Common": "1.0.0",
+          "Mosa.Compiler.Framework": "1.0.0",
+          "Mosa.Compiler.MosaTypeSystem": "1.0.0",
+          "Mosa.Platform.x64": "1.0.0",
+          "Mosa.Platform.x86": "1.0.0",
+          "Mosa.Utility.BootImage": "1.0.0",
+          "Mosa.Utility.Configuration": "1.0.0",
+          "Mosa.Utility.Disassembler": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Mosa.Utility.Launcher.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mosa.Utility.Launcher.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "dnlib/3.3.5": {
+      "sha512": "rUS26IVBFsHeVbDrWKZWn7ULA7GCiWIsAcyrWD+eRt6lX6RjPe86Dx2QEd5KCPvCz5tlGWZzcin1Tnw1BfH/5g==",
+      "type": "package",
+      "path": "dnlib/3.3.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "dnlib.3.3.5.nupkg.sha512",
+        "dnlib.nuspec",
+        "lib/net35/dnlib.dll",
+        "lib/net35/dnlib.xml",
+        "lib/net45/dnlib.dll",
+        "lib/net45/dnlib.xml",
+        "lib/netstandard2.0/dnlib.dll",
+        "lib/netstandard2.0/dnlib.xml"
+      ]
+    },
+    "Microsoft.NETCore.Platforms/1.1.1": {
+      "sha512": "TMBuzAHpTenGbGgk0SMTwyEkyijY/Eae4ZGsFNYJvAr/LDn1ku3Etp3FPxChmDp5HHF3kzJuoaa08N0xjqAJfQ==",
+      "type": "package",
+      "path": "microsoft.netcore.platforms/1.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/netstandard1.0/_._",
+        "microsoft.netcore.platforms.1.1.1.nupkg.sha512",
+        "microsoft.netcore.platforms.nuspec",
+        "runtime.json"
+      ]
+    },
+    "Microsoft.NETCore.Targets/1.1.3": {
+      "sha512": "3Wrmi0kJDzClwAC+iBdUBpEKmEle8FQNsCs77fkiOIw/9oYA07bL1EZNX0kQ2OMN3xpwvl0vAtOCYY3ndDNlhQ==",
+      "type": "package",
+      "path": "microsoft.netcore.targets/1.1.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/netstandard1.0/_._",
+        "microsoft.netcore.targets.1.1.3.nupkg.sha512",
+        "microsoft.netcore.targets.nuspec",
+        "runtime.json"
+      ]
+    },
+    "OptimizedPriorityQueue/5.1.0": {
+      "sha512": "0AnX6kAs0GiLrSqrHKe5mpQhJSHTmXeqLNucV2CxGATP/I9UzLMc1N4MtS/z8qB6mcgX61OjHdY3YbOmETGs+A==",
+      "type": "package",
+      "path": "optimizedpriorityqueue/5.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/PriorityQueue.dll",
+        "lib/net20/PriorityQueue.pdb",
+        "lib/net20/PriorityQueue.xml",
+        "lib/net35-unity full v3.5/PriorityQueue.dll",
+        "lib/net35-unity full v3.5/PriorityQueue.pdb",
+        "lib/net35-unity full v3.5/PriorityQueue.xml",
+        "lib/net35-unity subset v3.5/PriorityQueue.dll",
+        "lib/net35-unity subset v3.5/PriorityQueue.pdb",
+        "lib/net35-unity subset v3.5/PriorityQueue.xml",
+        "lib/net45/PriorityQueue.dll",
+        "lib/net45/PriorityQueue.pdb",
+        "lib/net45/PriorityQueue.xml",
+        "lib/netstandard1.0/PriorityQueue.dll",
+        "lib/netstandard1.0/PriorityQueue.pdb",
+        "lib/netstandard1.0/PriorityQueue.xml",
+        "lib/portable-net40+sl5+win8+wpa81+wp8/PriorityQueue.dll",
+        "lib/portable-net40+sl5+win8+wpa81+wp8/PriorityQueue.pdb",
+        "lib/portable-net40+sl5+win8+wpa81+wp8/PriorityQueue.xml",
+        "optimizedpriorityqueue.5.1.0.nupkg.sha512",
+        "optimizedpriorityqueue.nuspec"
+      ]
+    },
+    "Reko.Decompiler.Runtime/0.10.1": {
+      "sha512": "wIaNCYW07mLzDwP+zR8CdRu2qMWvTy0rpwAtGDGeiGpGhnXpi9FGYdDSQhPr7D41we6vRdWUmLn44VD5lBI0qw==",
+      "type": "package",
+      "path": "reko.decompiler.runtime/0.10.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "contentFiles/any/any/reko/C64.xml",
+        "contentFiles/any/any/reko/CoCoMemoryMap.xml",
+        "contentFiles/any/any/reko/Exepack-3.60-unpacker.osc",
+        "contentFiles/any/any/reko/IMAGE_FILE_MACHINE_AMD64.xml",
+        "contentFiles/any/any/reko/IMAGE_FILE_MACHINE_ARM.xml",
+        "contentFiles/any/any/reko/IMAGE_FILE_MACHINE_I386.xml",
+        "contentFiles/any/any/reko/IMAGE_FILE_MACHINE_IA64.xml",
+        "contentFiles/any/any/reko/MacOSClassicInterfaces.p",
+        "contentFiles/any/any/reko/PLATFORM_INDEPENDENT.xml",
+        "contentFiles/any/any/reko/PkLite-1.50-unpacker.osc",
+        "contentFiles/any/any/reko/RekoUnpacker_823.osc",
+        "contentFiles/any/any/reko/SegaGenesis.xml",
+        "contentFiles/any/any/reko/Trs80Rom.xml",
+        "contentFiles/any/any/reko/Xlib.xml",
+        "contentFiles/any/any/reko/advapi32.xml",
+        "contentFiles/any/any/reko/atariTOS.xml",
+        "contentFiles/any/any/reko/comctl32.spec",
+        "contentFiles/any/any/reko/comdlg32.xml",
+        "contentFiles/any/any/reko/commctrl.xml",
+        "contentFiles/any/any/reko/commdlg.dll16.spec",
+        "contentFiles/any/any/reko/coredll.def",
+        "contentFiles/any/any/reko/cpm_map.xml",
+        "contentFiles/any/any/reko/exec.funcs",
+        "contentFiles/any/any/reko/gdi.exe16.spec",
+        "contentFiles/any/any/reko/gdi32.xml",
+        "contentFiles/any/any/reko/kernel32.xml",
+        "contentFiles/any/any/reko/krnl386.exe16.spec",
+        "contentFiles/any/any/reko/libc.so.xml",
+        "contentFiles/any/any/reko/linux-syscalls-i386.xml",
+        "contentFiles/any/any/reko/lp32.xml",
+        "contentFiles/any/any/reko/lp64.xml",
+        "contentFiles/any/any/reko/macos_classic.xml",
+        "contentFiles/any/any/reko/msvcrt.xml",
+        "contentFiles/any/any/reko/ntoskrnl.xml",
+        "contentFiles/any/any/reko/oleaut32.def",
+        "contentFiles/any/any/reko/oleaut32.spec",
+        "contentFiles/any/any/reko/oleaut32.xml",
+        "contentFiles/any/any/reko/opengl.xml",
+        "contentFiles/any/any/reko/os-16/ANSICALL.def",
+        "contentFiles/any/any/reko/os-16/BKSCALLS.def",
+        "contentFiles/any/any/reko/os-16/BMSCALLS.def",
+        "contentFiles/any/any/reko/os-16/BVH8514A.def",
+        "contentFiles/any/any/reko/os-16/BVHCGA.def",
+        "contentFiles/any/any/reko/os-16/BVHEGA.def",
+        "contentFiles/any/any/reko/os-16/BVHINIT.def",
+        "contentFiles/any/any/reko/os-16/BVHMPA.def",
+        "contentFiles/any/any/reko/os-16/BVHVGA.def",
+        "contentFiles/any/any/reko/os-16/BVHWNDW.def",
+        "contentFiles/any/any/reko/os-16/BVHXGA.def",
+        "contentFiles/any/any/reko/os-16/BVSCALLS.def",
+        "contentFiles/any/any/reko/os-16/DOSCALLS.def",
+        "contentFiles/any/any/reko/os-16/DOSRFICO.def",
+        "contentFiles/any/any/reko/os-16/HELPMGR.def",
+        "contentFiles/any/any/reko/os-16/KBDCALLS.def",
+        "contentFiles/any/any/reko/os-16/LOCKDLL.def",
+        "contentFiles/any/any/reko/os-16/MONCALLS.def",
+        "contentFiles/any/any/reko/os-16/MOUCALLS.def",
+        "contentFiles/any/any/reko/os-16/MSG.def",
+        "contentFiles/any/any/reko/os-16/NAMPIPES.def",
+        "contentFiles/any/any/reko/os-16/NLS.def",
+        "contentFiles/any/any/reko/os-16/OS2SM.def",
+        "contentFiles/any/any/reko/os-16/OS2SMDUM.def",
+        "contentFiles/any/any/reko/os-16/PMDRAG.def",
+        "contentFiles/any/any/reko/os-16/PMGPI.def",
+        "contentFiles/any/any/reko/os-16/PMSHAPI.def",
+        "contentFiles/any/any/reko/os-16/PMSHLTKT.def",
+        "contentFiles/any/any/reko/os-16/PMSPL.def",
+        "contentFiles/any/any/reko/os-16/PMTKT.def",
+        "contentFiles/any/any/reko/os-16/PMTRACE.def",
+        "contentFiles/any/any/reko/os-16/PMVIOP.def",
+        "contentFiles/any/any/reko/os-16/PMWIN.def",
+        "contentFiles/any/any/reko/os-16/PMWINDUM.def",
+        "contentFiles/any/any/reko/os-16/QUECALLS.def",
+        "contentFiles/any/any/reko/os-16/REXX.def",
+        "contentFiles/any/any/reko/os-16/REXXAPI.def",
+        "contentFiles/any/any/reko/os-16/SESMGR.def",
+        "contentFiles/any/any/reko/os-16/SPOOLCP.def",
+        "contentFiles/any/any/reko/os-16/VIOCALLS.def",
+        "contentFiles/any/any/reko/os-16/fsd.xml",
+        "contentFiles/any/any/reko/os-16/fsh.xml",
+        "contentFiles/any/any/reko/os-16/fsu.xml",
+        "contentFiles/any/any/reko/os-16/os2-16.xml",
+        "contentFiles/any/any/reko/os-32/DOSCALLS.def",
+        "contentFiles/any/any/reko/os-32/bdcalls.def",
+        "contentFiles/any/any/reko/os-32/dive.def",
+        "contentFiles/any/any/reko/os-32/ftpapi.def",
+        "contentFiles/any/any/reko/os-32/glut.def",
+        "contentFiles/any/any/reko/os-32/helpmgr.def",
+        "contentFiles/any/any/reko/os-32/kbdcalls.def",
+        "contentFiles/any/any/reko/os-32/libaux.def",
+        "contentFiles/any/any/reko/os-32/libtk.def",
+        "contentFiles/any/any/reko/os-32/libuni.def",
+        "contentFiles/any/any/reko/os-32/mciapi.def",
+        "contentFiles/any/any/reko/os-32/mdm.def",
+        "contentFiles/any/any/reko/os-32/mmio.def",
+        "contentFiles/any/any/reko/os-32/moncalls.def",
+        "contentFiles/any/any/reko/os-32/moucalls.def",
+        "contentFiles/any/any/reko/os-32/msg.def",
+        "contentFiles/any/any/reko/os-32/nampipes.def",
+        "contentFiles/any/any/reko/os-32/nls.def",
+        "contentFiles/any/any/reko/os-32/opengl.def",
+        "contentFiles/any/any/reko/os-32/pmctls.def",
+        "contentFiles/any/any/reko/os-32/pmdrag.def",
+        "contentFiles/any/any/reko/os-32/pmgpi.def",
+        "contentFiles/any/any/reko/os-32/pmshapi.def",
+        "contentFiles/any/any/reko/os-32/pmspl.def",
+        "contentFiles/any/any/reko/os-32/pmviop.def",
+        "contentFiles/any/any/reko/os-32/pmwin.def",
+        "contentFiles/any/any/reko/os-32/pmwp.def",
+        "contentFiles/any/any/reko/os-32/quecalls.def",
+        "contentFiles/any/any/reko/os-32/rexx.def",
+        "contentFiles/any/any/reko/os-32/rexxapi.def",
+        "contentFiles/any/any/reko/os-32/rtmidi.def",
+        "contentFiles/any/any/reko/os-32/sesmgr.def",
+        "contentFiles/any/any/reko/os-32/sw.def",
+        "contentFiles/any/any/reko/os-32/tcpip32.def",
+        "contentFiles/any/any/reko/os-32/uconv.def",
+        "contentFiles/any/any/reko/os-32/upm32.def",
+        "contentFiles/any/any/reko/os-32/viocalls.def",
+        "contentFiles/any/any/reko/picdb.zip",
+        "contentFiles/any/any/reko/realmodeintservices.xml",
+        "contentFiles/any/any/reko/reko.config",
+        "contentFiles/any/any/reko/rt11_services.xml",
+        "contentFiles/any/any/reko/shell32.xml",
+        "contentFiles/any/any/reko/sysvcharacteristics.xml",
+        "contentFiles/any/any/reko/upx_ultimate.osc",
+        "contentFiles/any/any/reko/user.exe16.spec",
+        "contentFiles/any/any/reko/user32.xml",
+        "contentFiles/any/any/reko/win16characteristics.xml",
+        "contentFiles/any/any/reko/win32characteristics.xml",
+        "contentFiles/any/any/reko/win64characteristics.xml",
+        "contentFiles/any/any/reko/wince.inc",
+        "contentFiles/any/any/reko/windows32.xml",
+        "contentFiles/any/any/reko/windows64.xml",
+        "contentFiles/any/any/reko/windows_CE.xml",
+        "contentFiles/any/any/reko/wininet.xml",
+        "contentFiles/any/any/reko/winspool.xml",
+        "contentFiles/any/any/reko/wsock32.xml",
+        "contentFiles/any/any/reko/xbox360krnl.def",
+        "contentFiles/any/any/reko/xboxkernel.def",
+        "images/reko.png",
+        "lib/netstandard2.1/K4os.Compression.LZ4.dll",
+        "lib/netstandard2.1/Reko.Arch.Alpha.dll",
+        "lib/netstandard2.1/Reko.Arch.Altera.dll",
+        "lib/netstandard2.1/Reko.Arch.Arc.dll",
+        "lib/netstandard2.1/Reko.Arch.Arm.dll",
+        "lib/netstandard2.1/Reko.Arch.Avr.dll",
+        "lib/netstandard2.1/Reko.Arch.Blackfin.dll",
+        "lib/netstandard2.1/Reko.Arch.C166.dll",
+        "lib/netstandard2.1/Reko.Arch.Cil.dll",
+        "lib/netstandard2.1/Reko.Arch.CompactRisc.dll",
+        "lib/netstandard2.1/Reko.Arch.Cray.dll",
+        "lib/netstandard2.1/Reko.Arch.Etrax.dll",
+        "lib/netstandard2.1/Reko.Arch.H8.dll",
+        "lib/netstandard2.1/Reko.Arch.IA64.dll",
+        "lib/netstandard2.1/Reko.Arch.LatticeMico.dll",
+        "lib/netstandard2.1/Reko.Arch.M6800.dll",
+        "lib/netstandard2.1/Reko.Arch.M68k.dll",
+        "lib/netstandard2.1/Reko.Arch.MCore.dll",
+        "lib/netstandard2.1/Reko.Arch.MicroBlaze.dll",
+        "lib/netstandard2.1/Reko.Arch.MicrochipPIC.dll",
+        "lib/netstandard2.1/Reko.Arch.MilStd1750.dll",
+        "lib/netstandard2.1/Reko.Arch.Mips.dll",
+        "lib/netstandard2.1/Reko.Arch.Mos6502.dll",
+        "lib/netstandard2.1/Reko.Arch.Msp430.dll",
+        "lib/netstandard2.1/Reko.Arch.OpenRISC.dll",
+        "lib/netstandard2.1/Reko.Arch.PaRisc.dll",
+        "lib/netstandard2.1/Reko.Arch.Pdp11.dll",
+        "lib/netstandard2.1/Reko.Arch.PowerPC.dll",
+        "lib/netstandard2.1/Reko.Arch.Qualcomm.dll",
+        "lib/netstandard2.1/Reko.Arch.RiscV.dll",
+        "lib/netstandard2.1/Reko.Arch.Rl78.dll",
+        "lib/netstandard2.1/Reko.Arch.Sparc.dll",
+        "lib/netstandard2.1/Reko.Arch.SuperH.dll",
+        "lib/netstandard2.1/Reko.Arch.Tlcs.dll",
+        "lib/netstandard2.1/Reko.Arch.Tms7000.dll",
+        "lib/netstandard2.1/Reko.Arch.V850.dll",
+        "lib/netstandard2.1/Reko.Arch.Vax.dll",
+        "lib/netstandard2.1/Reko.Arch.WE32100.dll",
+        "lib/netstandard2.1/Reko.Arch.X86.dll",
+        "lib/netstandard2.1/Reko.Arch.XCore.dll",
+        "lib/netstandard2.1/Reko.Arch.Xtensa.dll",
+        "lib/netstandard2.1/Reko.Arch.Z80.dll",
+        "lib/netstandard2.1/Reko.Arch.i8051.dll",
+        "lib/netstandard2.1/Reko.Arch.zSeries.dll",
+        "lib/netstandard2.1/Reko.Core.dll",
+        "lib/netstandard2.1/Reko.Environments.AmigaOS.dll",
+        "lib/netstandard2.1/Reko.Environments.AtariTOS.dll",
+        "lib/netstandard2.1/Reko.Environments.BbcMicro.dll",
+        "lib/netstandard2.1/Reko.Environments.C64.dll",
+        "lib/netstandard2.1/Reko.Environments.Cpm.dll",
+        "lib/netstandard2.1/Reko.Environments.Dreamcast.dll",
+        "lib/netstandard2.1/Reko.Environments.Gameboy.dll",
+        "lib/netstandard2.1/Reko.Environments.Hpux.dll",
+        "lib/netstandard2.1/Reko.Environments.MacOS.dll",
+        "lib/netstandard2.1/Reko.Environments.MorphOS.dll",
+        "lib/netstandard2.1/Reko.Environments.Msdos.dll",
+        "lib/netstandard2.1/Reko.Environments.NeoGeo.dll",
+        "lib/netstandard2.1/Reko.Environments.OS2.dll",
+        "lib/netstandard2.1/Reko.Environments.Ps3.dll",
+        "lib/netstandard2.1/Reko.Environments.RT11.dll",
+        "lib/netstandard2.1/Reko.Environments.RiscOS.dll",
+        "lib/netstandard2.1/Reko.Environments.SegaGenesis.dll",
+        "lib/netstandard2.1/Reko.Environments.Snes.dll",
+        "lib/netstandard2.1/Reko.Environments.Switch.dll",
+        "lib/netstandard2.1/Reko.Environments.SysV.dll",
+        "lib/netstandard2.1/Reko.Environments.Trs80.dll",
+        "lib/netstandard2.1/Reko.Environments.Wii.dll",
+        "lib/netstandard2.1/Reko.Environments.Windows.dll",
+        "lib/netstandard2.1/Reko.Environments.Xbox.dll",
+        "lib/netstandard2.1/Reko.Environments.ZX81.dll",
+        "lib/netstandard2.1/Reko.ImageLoaders.BinHex.dll",
+        "lib/netstandard2.1/Reko.ImageLoaders.Coff.dll",
+        "lib/netstandard2.1/Reko.ImageLoaders.Dol.dll",
+        "lib/netstandard2.1/Reko.ImageLoaders.Elf.dll",
+        "lib/netstandard2.1/Reko.ImageLoaders.HpSom.dll",
+        "lib/netstandard2.1/Reko.ImageLoaders.Hunk.dll",
+        "lib/netstandard2.1/Reko.ImageLoaders.IntelHex.dll",
+        "lib/netstandard2.1/Reko.ImageLoaders.LLVM.dll",
+        "lib/netstandard2.1/Reko.ImageLoaders.Ldm.dll",
+        "lib/netstandard2.1/Reko.ImageLoaders.MachO.dll",
+        "lib/netstandard2.1/Reko.ImageLoaders.MzExe.dll",
+        "lib/netstandard2.1/Reko.ImageLoaders.Nro.dll",
+        "lib/netstandard2.1/Reko.ImageLoaders.OdbgScript.dll",
+        "lib/netstandard2.1/Reko.ImageLoaders.Omf.dll",
+        "lib/netstandard2.1/Reko.ImageLoaders.Pef.dll",
+        "lib/netstandard2.1/Reko.ImageLoaders.Srec.dll",
+        "lib/netstandard2.1/Reko.ImageLoaders.TekHex.dll",
+        "lib/netstandard2.1/Reko.ImageLoaders.TypeLib.dll",
+        "lib/netstandard2.1/Reko.ImageLoaders.VmsExe.dll",
+        "lib/netstandard2.1/Reko.ImageLoaders.WebAssembly.dll",
+        "lib/netstandard2.1/Reko.ImageLoaders.Xbe.dll",
+        "lib/netstandard2.1/Reko.ImageLoaders.Xex.dll",
+        "lib/netstandard2.1/Reko.Libraries.Libc.dll",
+        "lib/netstandard2.1/Reko.Libraries.Microchip.Utils.dll",
+        "lib/netstandard2.1/Reko.Libraries.Python.dll",
+        "lib/netstandard2.1/Reko.Scripts.Python.dll",
+        "lib/netstandard2.1/Reko.Symbols.LGSymLoader.dll",
+        "lib/netstandard2.1/Reko.dll",
+        "reko.decompiler.runtime.0.10.1.nupkg.sha512",
+        "reko.decompiler.runtime.nuspec"
+      ]
+    },
+    "System.Reflection.Emit/4.7.0": {
+      "sha512": "VR4kk8XLKebQ4MZuKuIni/7oh+QGFmZW3qORd1GvBq/8026OpW501SzT/oypwiQl4TvT8ErnReh/NzY9u+C6wQ==",
+      "type": "package",
+      "path": "system.reflection.emit/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/netcore50/System.Reflection.Emit.dll",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.1/System.Reflection.Emit.dll",
+        "lib/netstandard1.1/System.Reflection.Emit.xml",
+        "lib/netstandard1.3/System.Reflection.Emit.dll",
+        "lib/netstandard2.0/System.Reflection.Emit.dll",
+        "lib/netstandard2.0/System.Reflection.Emit.xml",
+        "lib/netstandard2.1/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.1/System.Reflection.Emit.dll",
+        "ref/netstandard1.1/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/de/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/es/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/fr/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/it/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/ja/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/ko/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/ru/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/zh-hans/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/zh-hant/System.Reflection.Emit.xml",
+        "ref/netstandard2.0/System.Reflection.Emit.dll",
+        "ref/netstandard2.0/System.Reflection.Emit.xml",
+        "ref/netstandard2.1/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/aot/lib/netcore50/System.Reflection.Emit.dll",
+        "runtimes/aot/lib/netcore50/System.Reflection.Emit.xml",
+        "system.reflection.emit.4.7.0.nupkg.sha512",
+        "system.reflection.emit.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Reflection.Emit.Lightweight/4.7.0": {
+      "sha512": "a4OLB4IITxAXJeV74MDx49Oq2+PsF6Sml54XAFv+2RyWwtDBcabzoxiiJRhdhx+gaohLh4hEGCLQyBozXoQPqA==",
+      "type": "package",
+      "path": "system.reflection.emit.lightweight/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/netcore50/System.Reflection.Emit.Lightweight.dll",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.Reflection.Emit.Lightweight.dll",
+        "lib/netstandard1.0/System.Reflection.Emit.Lightweight.xml",
+        "lib/netstandard1.3/System.Reflection.Emit.Lightweight.dll",
+        "lib/netstandard2.0/System.Reflection.Emit.Lightweight.dll",
+        "lib/netstandard2.0/System.Reflection.Emit.Lightweight.xml",
+        "lib/netstandard2.1/_._",
+        "lib/portable-net45+wp8/_._",
+        "lib/wp80/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.0/System.Reflection.Emit.Lightweight.dll",
+        "ref/netstandard1.0/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard1.0/de/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard1.0/es/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard1.0/fr/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard1.0/it/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard1.0/ja/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard1.0/ko/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard1.0/ru/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard1.0/zh-hans/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard1.0/zh-hant/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard2.0/System.Reflection.Emit.Lightweight.dll",
+        "ref/netstandard2.0/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard2.1/_._",
+        "ref/portable-net45+wp8/_._",
+        "ref/wp80/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/aot/lib/netcore50/System.Reflection.Emit.Lightweight.dll",
+        "runtimes/aot/lib/netcore50/System.Reflection.Emit.Lightweight.xml",
+        "system.reflection.emit.lightweight.4.7.0.nupkg.sha512",
+        "system.reflection.emit.lightweight.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Runtime/4.3.1": {
+      "sha512": "abhfv1dTK6NXOmu4bgHIONxHyEqFjW8HwXPmpY9gmll+ix9UNo4XDcmzJn6oLooftxNssVHdJC1pGT9jkSynQg==",
+      "type": "package",
+      "path": "system.runtime/4.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/net462/System.Runtime.dll",
+        "lib/portable-net45+win8+wp80+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/net462/System.Runtime.dll",
+        "ref/netcore50/System.Runtime.dll",
+        "ref/netcore50/System.Runtime.xml",
+        "ref/netcore50/de/System.Runtime.xml",
+        "ref/netcore50/es/System.Runtime.xml",
+        "ref/netcore50/fr/System.Runtime.xml",
+        "ref/netcore50/it/System.Runtime.xml",
+        "ref/netcore50/ja/System.Runtime.xml",
+        "ref/netcore50/ko/System.Runtime.xml",
+        "ref/netcore50/ru/System.Runtime.xml",
+        "ref/netcore50/zh-hans/System.Runtime.xml",
+        "ref/netcore50/zh-hant/System.Runtime.xml",
+        "ref/netstandard1.0/System.Runtime.dll",
+        "ref/netstandard1.0/System.Runtime.xml",
+        "ref/netstandard1.0/de/System.Runtime.xml",
+        "ref/netstandard1.0/es/System.Runtime.xml",
+        "ref/netstandard1.0/fr/System.Runtime.xml",
+        "ref/netstandard1.0/it/System.Runtime.xml",
+        "ref/netstandard1.0/ja/System.Runtime.xml",
+        "ref/netstandard1.0/ko/System.Runtime.xml",
+        "ref/netstandard1.0/ru/System.Runtime.xml",
+        "ref/netstandard1.0/zh-hans/System.Runtime.xml",
+        "ref/netstandard1.0/zh-hant/System.Runtime.xml",
+        "ref/netstandard1.2/System.Runtime.dll",
+        "ref/netstandard1.2/System.Runtime.xml",
+        "ref/netstandard1.2/de/System.Runtime.xml",
+        "ref/netstandard1.2/es/System.Runtime.xml",
+        "ref/netstandard1.2/fr/System.Runtime.xml",
+        "ref/netstandard1.2/it/System.Runtime.xml",
+        "ref/netstandard1.2/ja/System.Runtime.xml",
+        "ref/netstandard1.2/ko/System.Runtime.xml",
+        "ref/netstandard1.2/ru/System.Runtime.xml",
+        "ref/netstandard1.2/zh-hans/System.Runtime.xml",
+        "ref/netstandard1.2/zh-hant/System.Runtime.xml",
+        "ref/netstandard1.3/System.Runtime.dll",
+        "ref/netstandard1.3/System.Runtime.xml",
+        "ref/netstandard1.3/de/System.Runtime.xml",
+        "ref/netstandard1.3/es/System.Runtime.xml",
+        "ref/netstandard1.3/fr/System.Runtime.xml",
+        "ref/netstandard1.3/it/System.Runtime.xml",
+        "ref/netstandard1.3/ja/System.Runtime.xml",
+        "ref/netstandard1.3/ko/System.Runtime.xml",
+        "ref/netstandard1.3/ru/System.Runtime.xml",
+        "ref/netstandard1.3/zh-hans/System.Runtime.xml",
+        "ref/netstandard1.3/zh-hant/System.Runtime.xml",
+        "ref/netstandard1.5/System.Runtime.dll",
+        "ref/netstandard1.5/System.Runtime.xml",
+        "ref/netstandard1.5/de/System.Runtime.xml",
+        "ref/netstandard1.5/es/System.Runtime.xml",
+        "ref/netstandard1.5/fr/System.Runtime.xml",
+        "ref/netstandard1.5/it/System.Runtime.xml",
+        "ref/netstandard1.5/ja/System.Runtime.xml",
+        "ref/netstandard1.5/ko/System.Runtime.xml",
+        "ref/netstandard1.5/ru/System.Runtime.xml",
+        "ref/netstandard1.5/zh-hans/System.Runtime.xml",
+        "ref/netstandard1.5/zh-hant/System.Runtime.xml",
+        "ref/portable-net45+win8+wp80+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.runtime.4.3.1.nupkg.sha512",
+        "system.runtime.nuspec"
+      ]
+    },
+    "System.Threading.Channels/6.0.0": {
+      "sha512": "TY8/9+tI0mNaUMgntOxxaq2ndTkdXqLSxvPmas7XEqOlv9lQtB7wLjYGd756lOaO7Dvb5r/WXhluM+0Xe87v5Q==",
+      "type": "package",
+      "path": "system.threading.channels/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/System.Threading.Channels.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/System.Threading.Channels.dll",
+        "lib/net461/System.Threading.Channels.xml",
+        "lib/net6.0/System.Threading.Channels.dll",
+        "lib/net6.0/System.Threading.Channels.xml",
+        "lib/netcoreapp3.1/System.Threading.Channels.dll",
+        "lib/netcoreapp3.1/System.Threading.Channels.xml",
+        "lib/netstandard2.0/System.Threading.Channels.dll",
+        "lib/netstandard2.0/System.Threading.Channels.xml",
+        "lib/netstandard2.1/System.Threading.Channels.dll",
+        "lib/netstandard2.1/System.Threading.Channels.xml",
+        "system.threading.channels.6.0.0.nupkg.sha512",
+        "system.threading.channels.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Mosa.Compiler.Common/1.0.0": {
+      "type": "project",
+      "path": "../Mosa.Compiler.Common/Mosa.Compiler.Common.csproj",
+      "msbuildProject": "../Mosa.Compiler.Common/Mosa.Compiler.Common.csproj"
+    },
+    "Mosa.Compiler.Framework/1.0.0": {
+      "type": "project",
+      "path": "../Mosa.Compiler.Framework/Mosa.Compiler.Framework.csproj",
+      "msbuildProject": "../Mosa.Compiler.Framework/Mosa.Compiler.Framework.csproj"
+    },
+    "Mosa.Compiler.MosaTypeSystem/1.0.0": {
+      "type": "project",
+      "path": "../Mosa.Compiler.MosaTypeSystem/Mosa.Compiler.MosaTypeSystem.csproj",
+      "msbuildProject": "../Mosa.Compiler.MosaTypeSystem/Mosa.Compiler.MosaTypeSystem.csproj"
+    },
+    "Mosa.Platform.ARMv8A32/1.0.0": {
+      "type": "project",
+      "path": "../Mosa.Platform.ARMv8A32/Mosa.Platform.ARMv8A32.csproj",
+      "msbuildProject": "../Mosa.Platform.ARMv8A32/Mosa.Platform.ARMv8A32.csproj"
+    },
+    "Mosa.Platform.Intel/1.0.0": {
+      "type": "project",
+      "path": "../Mosa.Platform.Intel/Mosa.Platform.Intel.csproj",
+      "msbuildProject": "../Mosa.Platform.Intel/Mosa.Platform.Intel.csproj"
+    },
+    "Mosa.Platform.x64/1.0.0": {
+      "type": "project",
+      "path": "../Mosa.Platform.x64/Mosa.Platform.x64.csproj",
+      "msbuildProject": "../Mosa.Platform.x64/Mosa.Platform.x64.csproj"
+    },
+    "Mosa.Platform.x86/1.0.0": {
+      "type": "project",
+      "path": "../Mosa.Platform.x86/Mosa.Platform.x86.csproj",
+      "msbuildProject": "../Mosa.Platform.x86/Mosa.Platform.x86.csproj"
+    },
+    "Mosa.Utility.BootImage/1.0.0": {
+      "type": "project",
+      "path": "../Mosa.Utility.BootImage/Mosa.Utility.BootImage.csproj",
+      "msbuildProject": "../Mosa.Utility.BootImage/Mosa.Utility.BootImage.csproj"
+    },
+    "Mosa.Utility.Configuration/1.0.0": {
+      "type": "project",
+      "path": "../Mosa.Utility.Configuration/Mosa.Utility.Configuration.csproj",
+      "msbuildProject": "../Mosa.Utility.Configuration/Mosa.Utility.Configuration.csproj"
+    },
+    "Mosa.Utility.Disassembler/1.0.0": {
+      "type": "project",
+      "path": "../Mosa.Utility.Disassembler/Mosa.Utility.Disassembler.csproj",
+      "msbuildProject": "../Mosa.Utility.Disassembler/Mosa.Utility.Disassembler.csproj"
+    },
+    "Mosa.Utility.FileSystem/1.0.0": {
+      "type": "project",
+      "path": "../Mosa.Utility.FileSystem/Mosa.Utility.FileSystem.csproj",
+      "msbuildProject": "../Mosa.Utility.FileSystem/Mosa.Utility.FileSystem.csproj"
+    },
+    "Mosa.Utility.Launcher/1.0.0": {
+      "type": "project",
+      "path": "../Mosa.Utility.Launcher/Mosa.Utility.Launcher.csproj",
+      "msbuildProject": "../Mosa.Utility.Launcher/Mosa.Utility.Launcher.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Mosa.Compiler.Common >= 1.0.0",
+      "Mosa.Utility.Configuration >= 1.0.0",
+      "Mosa.Utility.Launcher >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/kokolor/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/Mosa.Tool.Launcher.Console/Mosa.Tool.Launcher.Console.csproj",
+      "projectName": "Mosa.Tool.Launcher.Console",
+      "projectPath": "/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/Mosa.Tool.Launcher.Console/Mosa.Tool.Launcher.Console.csproj",
+      "packagesPath": "/home/kokolor/.nuget/packages/",
+      "outputPath": "/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/Mosa.Tool.Launcher.Console/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/nuget.config",
+        "/home/kokolor/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/Mosa.Compiler.Common/Mosa.Compiler.Common.csproj": {
+              "projectPath": "/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/Mosa.Compiler.Common/Mosa.Compiler.Common.csproj"
+            },
+            "/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/Mosa.Utility.Configuration/Mosa.Utility.Configuration.csproj": {
+              "projectPath": "/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/Mosa.Utility.Configuration/Mosa.Utility.Configuration.csproj"
+            },
+            "/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/Mosa.Utility.Launcher/Mosa.Utility.Launcher.csproj": {
+              "projectPath": "/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/Mosa.Utility.Launcher/Mosa.Utility.Launcher.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.8, 6.0.8]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.108/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

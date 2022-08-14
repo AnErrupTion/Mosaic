@@ -1,0 +1,15 @@
+/home/kokolor/Dev/OSDev/Mosaic/Mosa/bin/Mosa.Demo.MyWorld.x86.dll.config
+/home/kokolor/Dev/OSDev/Mosaic/Mosa/bin/Mosa.Demo.MyWorld.x86.deps.json
+/home/kokolor/Dev/OSDev/Mosaic/Mosa/bin/Mosa.Demo.MyWorld.x86.runtimeconfig.json
+/home/kokolor/Dev/OSDev/Mosaic/Mosa/bin/Mosa.Demo.MyWorld.x86.dll
+/home/kokolor/Dev/OSDev/Mosaic/Mosa/bin/ref/Mosa.Demo.MyWorld.x86.dll
+/home/kokolor/Dev/OSDev/Mosaic/Mosa/bin/Mosa.Demo.MyWorld.x86.pdb
+/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/Mosa.Demo.MyWorld.x86/obj/Debug/Mosa.Demo.MyWorld.x86.GeneratedMSBuildEditorConfig.editorconfig
+/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/Mosa.Demo.MyWorld.x86/obj/Debug/Mosa.Demo.MyWorld.x86.AssemblyInfoInputs.cache
+/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/Mosa.Demo.MyWorld.x86/obj/Debug/Mosa.Demo.MyWorld.x86.AssemblyInfo.cs
+/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/Mosa.Demo.MyWorld.x86/obj/Debug/Mosa.Demo.MyWorld.x86.csproj.CoreCompileInputs.cache
+/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/Mosa.Demo.MyWorld.x86/obj/Debug/Mosa.Demo.MyWorld.x86.csproj.CopyComplete
+/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/Mosa.Demo.MyWorld.x86/obj/Debug/Mosa.Demo.MyWorld.x86.dll
+/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/Mosa.Demo.MyWorld.x86/obj/Debug/ref/Mosa.Demo.MyWorld.x86.dll
+/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/Mosa.Demo.MyWorld.x86/obj/Debug/Mosa.Demo.MyWorld.x86.pdb
+/home/kokolor/Dev/OSDev/Mosaic/Mosa/Source/Mosa.Demo.MyWorld.x86/obj/Debug/Mosa.Demo.MyWorld.x86.genruntimeconfig.cache

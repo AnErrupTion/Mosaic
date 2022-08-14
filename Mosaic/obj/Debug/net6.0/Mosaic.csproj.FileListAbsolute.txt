@@ -1,0 +1,3 @@
+/home/kokolor/Dev/OSDev/Mosaic/Mosaic/obj/Debug/net6.0/Mosaic.csproj.AssemblyReference.cache
+/home/kokolor/Dev/OSDev/Mosaic/Mosaic/obj/Debug/net6.0/Mosaic.GeneratedMSBuildEditorConfig.editorconfig
+/home/kokolor/Dev/OSDev/Mosaic/Mosaic/obj/Debug/net6.0/Mosaic.csproj.CoreCompileInputs.cache

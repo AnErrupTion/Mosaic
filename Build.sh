@@ -1,0 +1,2 @@
+cd Mosaic
+dotnet build
